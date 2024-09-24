@@ -1,0 +1,24 @@
+package org.example.model;
+
+public class Ceiling {
+    private int height;
+    private enums.PaintColor color;
+
+    public Ceiling(int height, enums.PaintColor color) {
+        this.height = height;
+        this.color = color;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public enums.PaintColor getColor() {
+        return color;
+    }
+
+    public void create() {
+        System.out.println("Ceiling has been built.");
+    }
+
+}
